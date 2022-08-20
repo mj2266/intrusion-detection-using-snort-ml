@@ -1,0 +1,557 @@
+1 arg remaining, starting with 'snort.log.1650631700'
+Ostermann's tcptrace -- version 6.6.7 -- Thu Nov  4, 2004
+
+131 packets seen, 96 TCP packets traced
+elapsed wallclock time: 0:00:01.701974, 76 pkts/sec analyzed
+trace file elapsed time: 0:04:36.599230
+TCP connection info:
+11 TCP connections traced:
+TCP connection 1:
+	host a:        192.168.136.130:44924
+	host b:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:18:31.550996 2022
+	last packet:   Fri Apr 22 18:18:35.722633 2022
+	elapsed time:  0:00:04.171636
+	total packets: 8
+	filename:      snort.log.1650631700
+   a->b:			      b->a:
+     total packets:             4           total packets:             4      
+     ack pkts sent:             3           ack pkts sent:             4      
+     pure acks sent:            1           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         4           unique bytes sent:         0      
+     actual data pkts:          1           actual data pkts:          0      
+     actual data bytes:         4           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:             4 bytes     max segm size:             0 bytes
+     min segm size:             4 bytes     min segm size:             0 bytes
+     avg segm size:             3 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65280 bytes
+     min win adv:           64256 bytes     min win adv:           65280 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65280 bytes
+     initial window:            4 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:         4 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:         2275.2 ms        idletime max:         2273.2 ms   
+     throughput:                1 Bps       throughput:                0 Bps  
+================================
+TCP connection 2:
+	host c:        192.168.136.128:45304
+	host d:        17.111.232.35.bc.googleusercontent.com:80
+	complete conn: yes
+	first packet:  Fri Apr 22 18:18:34.913174 2022
+	last packet:   Fri Apr 22 18:18:35.583334 2022
+	elapsed time:  0:00:00.670160
+	total packets: 8
+	filename:      snort.log.1650631700
+   c->d:			      d->c:
+     total packets:             4           total packets:             4      
+     ack pkts sent:             3           ack pkts sent:             4      
+     pure acks sent:            1           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:        87           unique bytes sent:       148      
+     actual data pkts:          1           actual data pkts:          1      
+     actual data bytes:        87           actual data bytes:       148      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          1      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          N/N      
+     adv wind scale:            0           adv wind scale:            0      
+     req sack:                  Y           req sack:                  N      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:            87 bytes     max segm size:           148 bytes
+     min segm size:            87 bytes     min segm size:           148 bytes
+     avg segm size:            86 bytes     avg segm size:           147 bytes
+     max win adv:           64240 bytes     max win adv:           64240 bytes
+     min win adv:           64091 bytes     min win adv:           64239 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64202 bytes     avg win adv:           64239 bytes
+     initial window:           87 bytes     initial window:          148 bytes
+     initial window:            1 pkts      initial window:            1 pkts 
+     ttl stream length:        87 bytes     ttl stream length:       148 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:          357.5 ms        idletime max:          311.0 ms   
+     throughput:              130 Bps       throughput:              221 Bps  
+================================
+TCP connection 3:
+	host e:        192.168.136.130:44926
+	host f:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:18:39.784219 2022
+	last packet:   Fri Apr 22 18:18:45.881421 2022
+	elapsed time:  0:00:06.097202
+	total packets: 8
+	filename:      snort.log.1650631700
+   e->f:			      f->e:
+     total packets:             4           total packets:             4      
+     ack pkts sent:             3           ack pkts sent:             4      
+     pure acks sent:            1           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         4           unique bytes sent:         0      
+     actual data pkts:          1           actual data pkts:          0      
+     actual data bytes:         4           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:             4 bytes     max segm size:             0 bytes
+     min segm size:             4 bytes     min segm size:             0 bytes
+     avg segm size:             3 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65280 bytes
+     min win adv:           64256 bytes     min win adv:           65280 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65280 bytes
+     initial window:            4 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:         4 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:         3593.7 ms        idletime max:         3591.7 ms   
+     throughput:                1 Bps       throughput:                0 Bps  
+================================
+TCP connection 4:
+	host g:        192.168.136.130:44928
+	host h:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:18:49.010430 2022
+	last packet:   Fri Apr 22 18:18:57.946971 2022
+	elapsed time:  0:00:08.936541
+	total packets: 10
+	filename:      snort.log.1650631700
+   g->h:			      h->g:
+     total packets:             5           total packets:             5      
+     ack pkts sent:             4           ack pkts sent:             5      
+     pure acks sent:            1           pure acks sent:            3      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:        15           unique bytes sent:         0      
+     actual data pkts:          2           actual data pkts:          0      
+     actual data bytes:        15           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          2           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:             9 bytes     max segm size:             0 bytes
+     min segm size:             6 bytes     min segm size:             0 bytes
+     avg segm size:             7 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65152 bytes
+     min win adv:           64256 bytes     min win adv:           65152 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65152 bytes
+     initial window:            9 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:        15 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        2.436 secs      data xmit time:        0.000 secs 
+     idletime max:         4354.9 ms        idletime max:         4355.4 ms   
+     throughput:                2 Bps       throughput:                0 Bps  
+================================
+TCP connection 5:
+	host i:        192.168.136.130:44932
+	host j:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:19:10.031588 2022
+	last packet:   Fri Apr 22 18:19:27.044065 2022
+	elapsed time:  0:00:17.012477
+	total packets: 12
+	filename:      snort.log.1650631700
+   i->j:			      j->i:
+     total packets:             6           total packets:             6      
+     ack pkts sent:             5           ack pkts sent:             6      
+     pure acks sent:            1           pure acks sent:            4      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:        18           unique bytes sent:         0      
+     actual data pkts:          3           actual data pkts:          0      
+     actual data bytes:        18           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          3           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:             9 bytes     max segm size:             0 bytes
+     min segm size:             3 bytes     min segm size:             0 bytes
+     avg segm size:             5 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65280 bytes
+     min win adv:           64256 bytes     min win adv:           65280 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65280 bytes
+     initial window:            3 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:        18 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:       12.247 secs      data xmit time:        0.000 secs 
+     idletime max:         7508.2 ms        idletime max:         7508.0 ms   
+     throughput:                1 Bps       throughput:                0 Bps  
+================================
+TCP connection 6:
+	host k:        192.168.136.130:44934
+	host l:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:19:35.384892 2022
+	last packet:   Fri Apr 22 18:19:39.474779 2022
+	elapsed time:  0:00:04.089887
+	total packets: 8
+	filename:      snort.log.1650631700
+   k->l:			      l->k:
+     total packets:             4           total packets:             4      
+     ack pkts sent:             3           ack pkts sent:             4      
+     pure acks sent:            1           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         7           unique bytes sent:         0      
+     actual data pkts:          1           actual data pkts:          0      
+     actual data bytes:         7           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:             7 bytes     max segm size:             0 bytes
+     min segm size:             7 bytes     min segm size:             0 bytes
+     avg segm size:             6 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65280 bytes
+     min win adv:           64256 bytes     min win adv:           65280 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65280 bytes
+     initial window:            7 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:         7 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:         2066.7 ms        idletime max:         2065.1 ms   
+     throughput:                2 Bps       throughput:                0 Bps  
+================================
+TCP connection 7:
+	host m:        192.168.136.130:44936
+	host n:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:20:06.129801 2022
+	last packet:   Fri Apr 22 18:20:22.651127 2022
+	elapsed time:  0:00:16.521325
+	total packets: 8
+	filename:      snort.log.1650631700
+   m->n:			      n->m:
+     total packets:             4           total packets:             4      
+     ack pkts sent:             3           ack pkts sent:             4      
+     pure acks sent:            1           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:        10           unique bytes sent:         0      
+     actual data pkts:          1           actual data pkts:          0      
+     actual data bytes:        10           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:            10 bytes     max segm size:             0 bytes
+     min segm size:            10 bytes     min segm size:             0 bytes
+     avg segm size:             9 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65152 bytes
+     min win adv:           64256 bytes     min win adv:           65152 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65152 bytes
+     initial window:           10 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:        10 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:        14872.7 ms        idletime max:        14871.5 ms   
+     throughput:                1 Bps       throughput:                0 Bps  
+================================
+TCP connection 8:
+	host o:        192.168.136.130:44938
+	host p:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:20:33.390436 2022
+	last packet:   Fri Apr 22 18:20:56.014356 2022
+	elapsed time:  0:00:22.623919
+	total packets: 8
+	filename:      snort.log.1650631700
+   o->p:			      p->o:
+     total packets:             5           total packets:             3      
+     ack pkts sent:             4           ack pkts sent:             3      
+     pure acks sent:            2           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         6           unique bytes sent:         0      
+     actual data pkts:          1           actual data pkts:          0      
+     actual data bytes:         6           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:             6 bytes     max segm size:             0 bytes
+     min segm size:             6 bytes     min segm size:             0 bytes
+     avg segm size:             5 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65280 bytes
+     min win adv:           64256 bytes     min win adv:           65280 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65280 bytes
+     initial window:            6 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:         6 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:        13540.0 ms        idletime max:        13540.6 ms   
+     throughput:                0 Bps       throughput:                0 Bps  
+================================
+TCP connection 9:
+	host q:        192.168.136.130:44940
+	host r:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:21:18.707946 2022
+	last packet:   Fri Apr 22 18:21:28.736852 2022
+	elapsed time:  0:00:10.028905
+	total packets: 8
+	filename:      snort.log.1650631700
+   q->r:			      r->q:
+     total packets:             4           total packets:             4      
+     ack pkts sent:             3           ack pkts sent:             4      
+     pure acks sent:            1           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:        10           unique bytes sent:         0      
+     actual data pkts:          1           actual data pkts:          0      
+     actual data bytes:        10           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:            10 bytes     max segm size:             0 bytes
+     min segm size:            10 bytes     min segm size:             0 bytes
+     avg segm size:             9 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65152 bytes
+     min win adv:           64256 bytes     min win adv:           65152 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65152 bytes
+     initial window:           10 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:        10 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:         7335.9 ms        idletime max:         7337.2 ms   
+     throughput:                1 Bps       throughput:                0 Bps  
+================================
+TCP connection 10:
+	host s:        192.168.136.130:44942
+	host t:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:21:32.699548 2022
+	last packet:   Fri Apr 22 18:21:37.833672 2022
+	elapsed time:  0:00:05.134123
+	total packets: 8
+	filename:      snort.log.1650631700
+   s->t:			      t->s:
+     total packets:             4           total packets:             4      
+     ack pkts sent:             3           ack pkts sent:             4      
+     pure acks sent:            1           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         8           unique bytes sent:         0      
+     actual data pkts:          1           actual data pkts:          0      
+     actual data bytes:         8           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:             8 bytes     max segm size:             0 bytes
+     min segm size:             8 bytes     min segm size:             0 bytes
+     avg segm size:             7 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65152 bytes
+     min win adv:           64256 bytes     min win adv:           65152 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65152 bytes
+     initial window:            8 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:         8 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:         3482.1 ms        idletime max:         3481.1 ms   
+     throughput:                2 Bps       throughput:                0 Bps  
+================================
+TCP connection 11:
+	host u:        192.168.136.130:44944
+	host v:        192.168.136.128:135
+	complete conn: yes
+	first packet:  Fri Apr 22 18:21:46.685869 2022
+	last packet:   Fri Apr 22 18:22:14.851849 2022
+	elapsed time:  0:00:28.165980
+	total packets: 10
+	filename:      snort.log.1650631700
+   u->v:			      v->u:
+     total packets:             5           total packets:             5      
+     ack pkts sent:             4           ack pkts sent:             5      
+     pure acks sent:            1           pure acks sent:            3      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:        12           unique bytes sent:         0      
+     actual data pkts:          2           actual data pkts:          0      
+     actual data bytes:        12           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          2           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            7           adv wind scale:            7      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:          1460 bytes
+     max segm size:             6 bytes     max segm size:             0 bytes
+     min segm size:             6 bytes     min segm size:             0 bytes
+     avg segm size:             5 bytes     avg segm size:             0 bytes
+     max win adv:           64256 bytes     max win adv:           65280 bytes
+     min win adv:           64256 bytes     min win adv:           65280 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           64256 bytes     avg win adv:           65280 bytes
+     initial window:            6 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:        12 bytes     ttl stream length:         0 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        1.778 secs      data xmit time:        0.000 secs 
+     idletime max:        24155.1 ms        idletime max:        24155.6 ms   
+     throughput:                0 Bps       throughput:                0 Bps  
